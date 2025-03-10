@@ -1,0 +1,35 @@
+
+
+
+ /* estilos.css */
+
+/* Estilo para os títulos */
+.titulo-principal {
+    color:blueviolet;
+}
+
+.titulo-secundario {
+    color: darkgoldenrod;
+}
+
+.titulo-autor {
+    color: darkgoldenrod;
+}
+
+
+
+/* Estilo para o texto de ingredientes */
+.titulo-ingredientes {
+    background-color: blueviolet;
+    color: black;
+    font-size: 50px;
+}
+
+/* Estilo para o texto de modo de preparo */
+.titulo-preparo {
+    background-color: blueviolet;
+    color: black;
+    font-size: 50px;
+}
+
+   

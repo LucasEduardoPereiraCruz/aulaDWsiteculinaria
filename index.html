@@ -3,59 +3,58 @@
     <head>
             <title>Receita de pão caseiro</title>
             <meta charset="utf-8">
+
+             <!--CSS interno -> TAG style no head -->
+       <style>
+        /*Existem 3 formas de aplicar o css em elementos:
+           TAG -> utilizando o nome da TAG. Ex: b {...} 
+          .classe -> criamos uma classe para reaproveitar o mesmo css em vários locais. Ex: .azul{...} 
+           #id -> definimos um id para o elemento, aplica somente a ele, só podendo haver 1 id com aquele nome.
+               Ex: #logo{...}
+        */
+    </style>
+   <!--CSS externo -> adiciona arquivos .css à página -->
+   <link rel="stylesheet" href="css/style.css">
+
     </head>
 
     <body>
-        <h1 style="color:blueviolet">Pão caseiro de modo prático</h1>
-        <h2 style="color:darkgoldenrod">Aprenda os ingredientes e preparos</h2>
-        <h3 style="color:darkgoldenrod">Criado por Lucas Eduardo P. da Cruz</h3>
+        <h1 class="titulo-principal">Pão caseiro de modo prático</h1>
+        <h2 class="titulo-secundario">Aprenda os ingredientes e preparos</h2>
+        <h3 class="titulo-autor">Criado por Lucas Eduardo P. da Cruz</h3>
         <img src="freshly-sliced-loaf-of-bread-showcasing-light-and-fluffy-texture-for-culinary-delights-png.webp" alt="imagem pequena">
       
-
-        <hr> <!-- Adiciona uma linha na tela -->
-
-        <p style="background:white; color:black; font-size: 50px;">INGREDIENTES</p>
-        <p>
-           
-        
-        <ul>
-         <b><li>Farinha de trigo</li></b> <!-- UL cria uma lista não numerada -->
-         <b><li>Envelopes de fermento biológico seco ou tabletes do fresco</li></b> <!-- Li cria um item da lista -->
-         <b><li>Xicára (chá) de açucar</li></b> <!-- JAMAIS coloque apenas li na página -->
-         <b><li>Colher (sopa) de sal</li></b>
-         <b><li>Ovos</li></b>
-         <b><li>Xicára (chá) de banha derretida ou óleo (125 ml)</li></b>
-         <b><li> Xicára (chá) de leite + a mesma medida de água (leve ao fogo para amornar)</li></b>
-         <b><li>1 gema sem película levemente batida com 1 a 2 colheres (sopa) de leite para pincelar (opcional)</li></b>
-        </ul>
-                                        &nbsp;
-                                        <hr>
-                                        &nbsp;
-        <p style="background:white; color:black; font-size: 50px;">MODO DE PREPARO</p>                             
-        <ol> <!--OL cria uma lista numerada -->
-             <li>
-                Misture a farinha (reserve um pouco para dar o ponto) com o fermento (se usar o fresco, dilua no açúcar).</li>
-                                        &nbsp;
-             <li>Abra uma cova no centro, adicione o açúcar, o sal, os ovos e o óleo e misture (só o centro).</li>
-                                        &nbsp;
-             <li>Acrescente o leite com água e misture até a massa ficar pesada.</li>
-                                        &nbsp;
-             <li>Transfira para uma superfície enfarinhada e amasse por cerca de 1 minuto (não precisa sovar),
-acrescentando mais farinha se necessário, até desgrudar das mãos, mas ainda permanecer úmida (não deixe muito seca).</li>  
-                                        &nbsp; 
-             <li>Cubra e deixe crescer até dobrar o volume.</li>
-                                        &nbsp; 
-             <li>Divida a massa em 3 porções, modele os pães (abrindo com o rolo e enrolando como rocambole) e disponha em assadeira, mantendo espaço entre eles (se preferir, use fôrmas de pão untadas e enfarinhadas)</li>
-                                        &nbsp;      
-             <li>Cubra e deixe crescer até dobrar o volume</li> 
-                                        &nbsp;   
-             <li>Pincele a gema com leite, se desejar, e leve ao forno médio a 160 °C (não precisa preaquecer).</li>
-                                        &nbsp;      
-             <li>Após 5 minutos, aumente a temperatura para 180 °C e asse por mais uns 25 minutos ou até dourarem.</li>                                                                                                                                              
-                                        &nbsp;
-                                        <hr>
-                                      
-        </ol>
-        <h4>Após todos esses processos, aproveite da melhor forma o seu delicioso pão caseiro</h4>  
-    </body>
+        <hr>
     
+        <p class="titulo-ingredientes">INGREDIENTES</p>
+        <ul>
+            <b><li>Farinha de trigo</li></b>
+            <b><li>Envelopes de fermento biológico seco ou tabletes do fresco</li></b>
+            <b><li>Xicára (chá) de açucar</li></b>
+            <b><li>Colher (sopa) de sal</li></b>
+            <b><li>Ovos</li></b>
+            <b><li>Xicára (chá) de banha derretida ou óleo (125 ml)</li></b>
+            <b><li>Xicára (chá) de leite + a mesma medida de água (leve ao fogo para amornar)</li></b>
+            <b><li>1 gema sem película levemente batida com 1 a 2 colheres (sopa) de leite para pincelar (opcional)</li></b>
+        </ul>
+    
+        <hr>
+    
+        <p class="titulo-preparo">MODO DE PREPARO</p>
+        <ol>
+            <li>Misture a farinha (reserve um pouco para dar o ponto) com o fermento (se usar o fresco, dilua no açúcar).</li>
+            <li>Abra uma cova no centro, adicione o açúcar, o sal, os ovos e o óleo e misture (só o centro).</li>
+            <li>Acrescente o leite com água e misture até a massa ficar pesada.</li>
+            <li>Transfira para uma superfície enfarinhada e amasse por cerca de 1 minuto (não precisa sovar), acrescentando mais farinha se necessário, até desgrudar das mãos, mas ainda permanecer úmida (não deixe muito seca).</li>
+            <li>Cubra e deixe crescer até dobrar o volume.</li>
+            <li>Divida a massa em 3 porções, modele os pães (abrindo com o rolo e enrolando como rocambole) e disponha em assadeira, mantendo espaço entre eles (se preferir, use fôrmas de pão untadas e enfarinhadas)</li>
+            <li>Cubra e deixe crescer até dobrar o volume</li>
+            <li>Pincele a gema com leite, se desejar, e leve ao forno médio a 160 °C (não precisa preaquecer).</li>
+            <li>Após 5 minutos, aumente a temperatura para 180 °C e asse por mais uns 25 minutos ou até dourarem.</li>
+        </ol>
+                                      <hr>
+        <h4>Após todos esses processos, aproveite da melhor forma o seu delicioso pão caseiro</h4>
+    </body>
+
+    </body>
+</html>
